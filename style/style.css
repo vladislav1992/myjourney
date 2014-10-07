@@ -1,7 +1,7 @@
 body {
 	background-color: #ffffff;
 	color: #30414d;
-	font: normal 14px "Helvetica Neue", Helvetica, sans-serif;
+	font: normal 100% "Helvetica Neue", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -115,7 +115,7 @@ nav li{
 
 .first-picture h1{
 	font-weight: normal;
-	font-size: 30px;
+	font-size: 1.875em; /* 30px/16px */
 	line-height: 1.5;
 	text-align: center;
 	color: #2b414d;
@@ -132,7 +132,7 @@ nav li{
 }
 
 .three-picture table tr td{
-	font-size: 14px;
+	font-size: 0.875em; /* 14px/16px */
 	line-height: 1.5;
 	text-align: center;
 }
@@ -178,14 +178,14 @@ nav li{
 }
 
 .simple-text h3{
-	font-size: 38px;
+	font-size: 2.375em; /* 38px/16px */
 }
 
 .simple-text p{
 	text-align: left;
 	color: #777c7f;
 	line-height: 1.5;
-	font-size: 17px;
+	font-size: 1.0625em; /* 17px/16px */
 }
 
 .button-content__i{
@@ -215,7 +215,7 @@ nav li{
 }
 
 .first-button h3{
-	font-size: 38px;
+	font-size: 2.375em; /* 38px/16px */
 }
 
 .first-button span a{
@@ -234,7 +234,7 @@ nav li{
 .first-button p span{
 	color: #777c7f;
 	line-height: 1.5;
-	font-size: 17px;
+	font-size: 1.0625; /* 17px/16px */
 }
 
 .button-more{
@@ -242,7 +242,7 @@ nav li{
 	height: 47px;
 	margin-top: 40px;
 	line-height: 47px;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px/16px */
 }
 
 .button-more .button:hover{
@@ -267,7 +267,7 @@ nav li{
 
 .twitter-content p{
 	margin-top: 63px;
-	font-size: 24px;
+	font-size: 1.5em; /* 24px/16px */
 	line-height: 1.5;
 }
 
@@ -277,7 +277,7 @@ nav li{
 }
 
 .twitter-content span{
-	font-size: 16px;
+	font-size: 0.65em; /* 16px/16px */ /* Было 16px */ /* Подогнал на глаз */
 }
 
 .twitter-content .under{
@@ -292,13 +292,13 @@ nav li{
 }
 
 .email-content h3{
-	font-size: 38px;
+	font-size: 2.375em; /* 38px/16px */
 }
 
 .email-content p{
 	color: #777c7f;
 	line-height: 1.5;
-	font-size: 17px;
+	font-size: 1.0625em; /* 17px/16px */
 }
 
 .form-subscribe{
@@ -323,7 +323,7 @@ nav li{
 	border-radius: 5px;
 	padding-left: 17px;
 	color: #ccd0d2;
-	font: normal 18px "Helvetica Neue", Helvetica, sans-serif;
+	font: normal 1.125em "Helvetica Neue", Helvetica, sans-serif; /* 18px/16px */
 }
 
 .form-subscribe__button{
@@ -331,7 +331,7 @@ nav li{
 	height: 47px;
 	float: left;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px/16px */
 	background-color: #e2574c;
 	margin-left: 17px;
 	border: none;
