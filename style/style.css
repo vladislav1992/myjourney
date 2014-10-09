@@ -1,28 +1,33 @@
 body {
 	background-color: #ffffff;
 	color: #30414d;
-	font: normal 100% "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
+	font: normal "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .wrapper{
-	width: 1200px;
+	width: 76%; /* 1200px */
 	margin: 0 auto;
 }
 
 header{
-	width: 1200px;
-	margin-bottom: 50px;
-	padding-top: 50px;
+	width: 100%; /* 1200px/1200px */
+	margin-bottom: 4.1666666667%; /* 50px/1200px */
+	padding-top: 4.1666666667%; /* 50px/1200px */
 }
 
 header .head-table{
-	margin-left: 130px;
+	margin-left: 10.8333333333%; /* 130px/1200px */
+}
+
+.head-table{
+    width: 78.3333333333%; /* 940px/1200px */
 }
 
 .socialmenu-1{
 	display: inline-block;
-	margin-left: 460px;
+	margin-left: 48.8%; /* Подогнал на глаз */
 }
 
 nav ul{
@@ -90,27 +95,26 @@ nav li{
 	background-color: #adaeaf;
 }
 
+.content{
+    width: 100%; /* 1200px/1200px */
+}
+
 .divider{
-	width: 940px;
+	width: 78.3333333333%; /* 940px/1200px */
 	height: 2px;
 	background-color: #ccd0d2;
 	margin: 0 auto;
 }
 
 .first-picture{
-	width: 1000px;
-	margin: 0 auto 90px auto;
-}
-
-.first-picture .divider{
-	margin-bottom: 40px;
+	width: 83.3333333333%; /* 1000px/1200px */
+	margin: 0 auto 7.5% auto; /* 90px/1200px */
 }
 
 .picture-1{
-	width: 940px;
-	height: 360px;
-	margin-left: 29px;
-	margin-top: 40px;
+	width: 94%; /* 940px/1000px */
+	margin-left: 2.9%; /* 29px/1000px */
+	margin-top: 4%; /* 40px/1000px */
 }
 
 .first-picture h1{
@@ -119,15 +123,16 @@ nav li{
 	line-height: 1.5;
 	text-align: center;
 	color: #2b414d;
+    padding-top: 4%; /* 40px/1000px */
 }
 
 .three-picture{
-	width: 1200px;
-	margin-bottom: 60px;
+	width: 100%; /* 1200px/1200 */
+	margin-bottom: 5%; /* 60px/1200px */
 }
 
 .tree-columns_table{
-	width: 83%;
+	width: 83%; /* 996px/1200px */
 	margin: 0 auto;
 }
 
@@ -154,8 +159,8 @@ nav li{
 }
 
 .text-content__i{
-	width: 78%;
-	margin: 88px auto 88px auto;
+	width: 78%; /* 936px/1200px */
+	margin: 7.3333333333% auto 7.3333333333% auto; /* 88px/1200px */ /* 88px/1200px */
 }
 
 .text-content__i:after{
@@ -167,14 +172,15 @@ nav li{
 }
 
 .simple-text{
-	width: 60%;
+	width: 60%; /* Увеличишь на 10% и текст съедет под картинку */
 	float:left;
-	margin-left: 55px;
-	margin-top: -30px;
+	margin-left: 5.8760683761%; /* 55px/936px */
+	margin-top: -2.1367521367%; /* 20px/936px */
 }
 
 .picture-content{
-	float: left;
+	width: 34.0811965812%; /* 319px/936px */
+    float: left;
 }
 
 .simple-text h3{
@@ -189,8 +195,8 @@ nav li{
 }
 
 .button-content__i{
-	width: 78%;
-	margin: 82px auto 88px auto;
+	width: 78%; /* 936px/1200px */
+	margin: 6.8333333333% auto 7.3333333333% auto; /* 82px/1200px */ /* 88px/1200px */
 }
 
 .button-content__i:after{
@@ -203,11 +209,12 @@ nav li{
 
 .right-text{
 	width: 100%;
-	margin-top: -20px;
+	margin-top: -2.1367521367%; /* 20px/936px */
 }
 
 .button-picture{
-	float: right;
+	width: 34.0811965812%; /* 319px/936px */
+    float: right;
 }
 
 .first-button{
@@ -250,7 +257,7 @@ nav li{
 }
 
 .button{
-	width: 179px;
+	width: 44%; /* 179px Подогнал на глаз */
 	height: 47px;
 	float: left;
 	text-align: center;
@@ -259,14 +266,15 @@ nav li{
 }
 
 .twitter-content{
-	width: 1200px;
+	width: 100%; /* 1200px/1200px */
 	background-color: #f8f8f8;
 	text-align: center;
-	padding: 90px 0px 150px 0px;
+	padding-top: 7.5%; /* 90px/1200px */
+    padding-bottom: 12.5%; /* 150px/1200px */
 }
 
 .twitter-content p{
-	margin-top: 63px;
+	margin-top: 5.25%; /* 63px/1200px */
 	font-size: 1.5em; /* 24px/16px */
 	line-height: 1.5;
 }
@@ -277,7 +285,7 @@ nav li{
 }
 
 .twitter-content span{
-	font-size: 0.65em; /* 16px/16px */ /* Было 16px */ /* Подогнал на глаз */
+	font-size: 0.6666666667em; /* 16px/24px */ /* Сначала задал размер в 24px для twitter-content p */
 }
 
 .twitter-content .under{
@@ -286,9 +294,9 @@ nav li{
 }
 
 .email-content{
-	width: 1200px;
+	width: 100%; /* 1200px/1200px */
 	text-align: center;
-	padding: 20px 0px 0px 0px;
+	padding-top: 1.6666666667%; /* 20px/1200px */
 }
 
 .email-content h3{
@@ -302,8 +310,8 @@ nav li{
 }
 
 .form-subscribe{
-	width: 600px;
-	margin:65px auto 37px auto;
+	width: 50%; /* 600px/1200px */
+	margin: 5.4166666667% auto 3.0833333333% auto; /* 65px/1200px */ /* 37px/1200px */
 }
 
 .form-subscribe:after{
@@ -315,25 +323,25 @@ nav li{
 }
 
 .form-subscribe__email{
-	width: 395px;
+	width: 65.8333333333%; /* 395px/600px */
 	height: 43px;
 	float: left;
 	background-color: #f8f8f8;
 	border: 2px solid #ececec;
 	border-radius: 5px;
-	padding-left: 17px;
+	padding-left: 2.8333333333%; /* 17px/600px */
 	color: #ccd0d2;
 	font: normal 1.125em "Helvetica Neue", Helvetica, sans-serif; /* 18px/16px */
 }
 
 .form-subscribe__button{
-	width: 160px;
+	width: 26.6666666667%; /* 160px/600px */
 	height: 47px;
 	float: left;
 	color: #ffffff;
 	font-size: 1.125em; /* 18px/16px */
 	background-color: #e2574c;
-	margin-left: 17px;
+	margin-left: 2.8333333333%; /* 17px/600px */
 	border: none;
 	border-radius: 5px;
 }
@@ -343,22 +351,23 @@ nav li{
 }
 
 .last-divider{
-	width: 50px;
+	width: 4.1666666667%; /* 50px/1200px */
 	height: 2px;
 	margin: 0 auto;
 	background-color: #ccd0d2;
-	margin-top: 65px;
+	margin-top: 5.4166666667%; /* 65px/1200px */
 }
 
 .socialmenu-2{
 	display: inline-block;
-	margin: 55px auto 5px auto;
+	margin: 4.5833333333% auto 0.4166666667% auto; /* 55px/1200px */ /* 5px/1200px */
 }
 
 footer{
-	width: 1200px;
+	width: 100%; /* 1200px/1200px */
 }
 
 .foot_picture{
-	display: block;
+	width: 100%; /* 1200px/1200px */
+    display: block;
 }
