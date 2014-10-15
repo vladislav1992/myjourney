@@ -1,4 +1,4 @@
-body {
+body{
 	background-color: #ffffff;
 	color: #30414d;
 	font: normal "Helvetica Neue", Helvetica, sans-serif;
@@ -13,8 +13,8 @@ body {
 
 header{
 	width: 100%; /* 1200px/1200px */
-	margin-bottom: 4.1666666667%; /* 50px/1200px */
-	padding-top: 4.1666666667%; /* 50px/1200px */
+	margin-bottom: 3.125em; /* 50px*1/16 */
+	padding-top: 3.125em; /* 50px*1/16 */
 }
 
 header .head-table{
@@ -108,13 +108,13 @@ nav li{
 
 .first-picture{
 	width: 83.3333333333%; /* 1000px/1200px */
-	margin: 0 auto 7.5% auto; /* 90px/1200px */
+	margin: 0 auto 5.625em auto; /* 90px*1/16 */
 }
 
 .picture-1{
 	width: 94%; /* 940px/1000px */
 	margin-left: 2.9%; /* 29px/1000px */
-	margin-top: 4%; /* 40px/1000px */
+	margin-top: 3.75em; /* 60px*1/16 */
 }
 
 .first-picture h1{
@@ -123,12 +123,12 @@ nav li{
 	line-height: 1.5;
 	text-align: center;
 	color: #2b414d;
-    padding-top: 4%; /* 40px/1000px */
+    padding-top: 2em; /* 60px*1/30px */
 }
 
 .three-picture{
 	width: 100%; /* 1200px/1200 */
-	margin-bottom: 5%; /* 60px/1200px */
+	margin-bottom: 5em; /* 80px*1/16 */
 }
 
 .tree-columns_table{
@@ -155,12 +155,12 @@ nav li{
 	width: 22px;
 	height: 2px;
 	background: #ccd0d2;
-	margin: 0 auto 3px auto;
+	margin: 0 auto 0.1875em auto; /* 3px*1/16 */
 }
 
 .text-content__i{
 	width: 78%; /* 936px/1200px */
-	margin: 7.3333333333% auto 7.3333333333% auto; /* 88px/1200px */ /* 88px/1200px */
+	margin: 5.5em auto 5.5em auto; /* 88px*1/16 и 88px*1/16 */
 }
 
 .text-content__i:after{
@@ -175,7 +175,7 @@ nav li{
 	width: 60%; /* Увеличишь на 10% и текст съедет под картинку */
 	float:left;
 	margin-left: 5.8760683761%; /* 55px/936px */
-	margin-top: -2.1367521367%; /* 20px/936px */
+	margin-top: -1.25em; /* 20px*1/16 */
 }
 
 .picture-content{
@@ -196,7 +196,7 @@ nav li{
 
 .button-content__i{
 	width: 78%; /* 936px/1200px */
-	margin: 6.8333333333% auto 7.3333333333% auto; /* 82px/1200px */ /* 88px/1200px */
+	margin: 5.5em auto 5.5em auto; /* 88px*1/16 и 88px*1/16 */
 }
 
 .button-content__i:after{
@@ -207,9 +207,13 @@ nav li{
 	visibility: hidden;
 }
 
+.right-text h3{
+	font-size: 2.375em; /* 38px/16px */
+}
+
 .right-text{
 	width: 100%;
-	margin-top: -2.1367521367%; /* 20px/936px */
+	margin-top: -1.25em; /* 20px*1/16 */
 }
 
 .button-picture{
@@ -219,10 +223,6 @@ nav li{
 
 .first-button{
 	float: left;
-}
-
-.first-button h3{
-	font-size: 2.375em; /* 38px/16px */
 }
 
 .first-button span a{
@@ -247,7 +247,7 @@ nav li{
 .button-more{
 	width: 80%;
 	height: 47px;
-	margin-top: 40px;
+	margin-top: 2.2222222222em; /* 40px*1/18 */
 	line-height: 47px;
 	font-size: 1.125em; /* 18px/16px */
 }
@@ -269,12 +269,12 @@ nav li{
 	width: 100%; /* 1200px/1200px */
 	background-color: #f8f8f8;
 	text-align: center;
-	padding-top: 7.5%; /* 90px/1200px */
-    padding-bottom: 12.5%; /* 150px/1200px */
+	padding-top: 5.625em; /* 90px*1/16 */
+    padding-bottom: 9.375em; /* 150px*1/16 */
 }
 
 .twitter-content p{
-	margin-top: 5.25%; /* 63px/1200px */
+	margin-top: 2.625em; /* 63px*1/24 */
 	font-size: 1.5em; /* 24px/16px */
 	line-height: 1.5;
 }
@@ -296,7 +296,7 @@ nav li{
 .email-content{
 	width: 100%; /* 1200px/1200px */
 	text-align: center;
-	padding-top: 1.6666666667%; /* 20px/1200px */
+	padding-top: 6.5em; /* 104px*1/16 */
 }
 
 .email-content h3{
@@ -311,7 +311,7 @@ nav li{
 
 .form-subscribe{
 	width: 50%; /* 600px/1200px */
-	margin: 5.4166666667% auto 3.0833333333% auto; /* 65px/1200px */ /* 37px/1200px */
+	margin: 4.0625em auto 2.3125em auto; /* 65px*1/16 */ /* 37px*1/16 */
 }
 
 .form-subscribe:after{
@@ -355,12 +355,12 @@ nav li{
 	height: 2px;
 	margin: 0 auto;
 	background-color: #ccd0d2;
-	margin-top: 5.4166666667%; /* 65px/1200px */
+	margin-top: 4.0625em; /* 65px*1/16 */
 }
 
 .socialmenu-2{
 	display: inline-block;
-	margin: 4.5833333333% auto 0.4166666667% auto; /* 55px/1200px */ /* 5px/1200px */
+	margin: 3.4375em auto 0.3125em auto; /* 55px и 5px */
 }
 
 footer{
@@ -371,3 +371,136 @@ footer{
 	width: 100%; /* 1200px/1200px */
     display: block;
 }
+
+
+@media screen and (max-width: 480px) { /* Начало медиазапроса */
+
+/* Начало блока с классом .wrapper */
+  .wrapper{ /* Обертка сайта */
+	width: 100%; /* 480px */
+}
+
+/* Начало блока <header> */
+  .socialmenu-1{ /* Значки социального меню вверху */
+	display: none;
+}
+/* Конец блока <header> */
+
+/* Начало блока с классом .content */
+  .divider{ /* Разделитель под социальным меню */
+	width: 85.4166666667%; /* 410px/480px */
+}
+
+/* Начало блока с классом .first-picture */
+  .first-picture h1{ /* Заголовок Hello! You...*/
+	font-size: 1.625em; /* 26px/16px */
+}
+
+  .picture-1{ /* Большая картинка */
+    display: none;
+}
+/* Конец блока с классом .first-picture */
+
+/* Начало блока с классом .three-picture */
+        /* Не разобрался с таблицей tree-columns_table*/
+/* Начало блока с классом .three-picture */
+
+/* Начало блока с классом .text-content__i */
+.text-content__i{ /* Большой блок с текстом и картинкой */
+    padding-top: 5em; /* 80px*0.0625em=5em */
+    padding-bottom: 5em; /* 80px*0.0625em=5em */
+}
+
+.picture-content{ /* Картинка с Горой и водой */
+    float: right;
+}
+
+  .simple-text h3{ /* Заголовок So simple... */
+    font-size: 1.875em; /* 30px/16px */
+}
+
+  .simple-text p{ /* Текст My Journey HTML template...*/
+	text-align: center;
+	font-size: 0.875em; /* 14px/16px */
+}
+/* Конец блока с классом .text-content__i */
+
+/* Начало блока с классом .button-content__i */
+  .button-content__i{
+	padding-top: 5em;
+    padding-bottom: 5em;
+}  
+
+  .right-text{ /* Текст My Journey is all...*/
+	font-size: 0.875em; /* 14px/16px*/
+}
+
+  .right-text h3{ /* Заголовок Right here...*/
+    font-size: 2.1428571429em; /* 30px/14px*/ /* Ранее задал шрифт 14px для блока right-text */
+}
+
+  .button-more{ /* Блок с красной кнопкой More information и текстом or get...*/
+	margin-top: 2.5em; /* 40px */
+}
+
+  .button{ /* Красная кнопка More information */
+	width: 179px;
+}
+
+  .button-picture{ /* Картинка ноги в джинсах и ботинках */
+    float: right;
+}
+/* Конец блока с классом .button-content__i */
+/* Конец блока с классом .content */
+
+/* Начало блока с классом .twitter-content */
+  .twitter-content{ /* Блок с синей птицей twitter */
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+  .twitter-content p{ /* Текст First of many freebies from...*/
+    margin-top: 3.625em; /* 58px */
+    font-size: 1.0625em; /* 17px/16px */
+}
+
+  .twitter-content span{ /* Текст @PixelBuddha long ago */
+    font-size: 0.9411764706em; /* 16px/17px */ /* Сначала задал размер в 17px для twitter-content p */
+}
+/* Конец блока с классом .twitter-content */
+
+/* Начало блока с классом .email-content */
+  .email-content h3{ /* Заголовок Subscribe to our...*/
+    font-size: 1.875em; /* 30px/16px */
+}
+
+  .form-subscribe{
+	width: 385px;
+}
+
+  .form-subscribe__email{
+	width: 225px;
+	padding-left: 4.6448087432%; /* 17px/366px */
+}
+
+  .form-subscribe__button{
+	width: 120px;
+	font-size: 1.125em; /* 18px/16px */
+	margin-left: 4.6448087432%; /* 17px/366px */
+}
+
+  .email-content p{ /* Текст Subscribe now if you...*/
+    font-size: 0.875em; /* 14px/16px */
+}
+
+  .last-divider{ /* Разделитель над нижним социальным меню */
+    margin-top: 3.625em; /* 58px */
+    width: 10.4166666667%; /* 50px/480px */
+}
+
+  .socialmenu-2{ /* Значки социального меню внизу */
+    margin: 3.5em auto 3.3125em auto; /* 56px и 53px */
+}
+/* Конец блока с классом .email-content */
+/* Конец блока с классом .wrapper */
+} /* Конец медиазапроса */
