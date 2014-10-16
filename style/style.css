@@ -25,6 +25,10 @@ header .head-table{
     width: 78.3333333333%; /* 940px/1200px */
 }
 
+.logo2{
+    width: 341px;
+}
+
 .socialmenu-1{
 	display: inline-block;
 	margin-left: 48.8%; /* Подогнал на глаз */
@@ -124,6 +128,14 @@ nav li{
 	text-align: center;
 	color: #2b414d;
     padding-top: 2em; /* 60px*1/30px */
+}
+
+.float_divider{
+	width: 78.3333333333%; /* 940px/1200px */
+	height: 2px;
+	background-color: #ccd0d2;
+	margin: 0 auto;
+    display: none;
 }
 
 .three-picture{
@@ -399,56 +411,113 @@ footer{
   .picture-1{ /* Большая картинка */
     display: none;
 }
+
+  .float_divider{
+    width: 85.4166666667%; /* 410px/480px */
+    display: block; /* Не уверен по поводу значения ??? */
+}
 /* Конец блока с классом .first-picture */
 
 /* Начало блока с классом .three-picture */
-        /* Не разобрался с таблицей tree-columns_table*/
+  .three-picture{
+    width: 100%; /* 480px/480px */
+}
+
+  .tree-columns_table{ /* Сама таблица с лампочкой, рокетой и флагом*/
+	width: 83%; /* 996px/1200px */
+}
+
+  .three-picture table tr td{ /* Текст Clean & Beautiful ... */
+    font-size: 0.875em; /* 14px/16px */
+}
+
+  .three-picture table tr td h2{ /* Заголовки Light and fast */
+    font-size: 1.2857142857em; /* 18px/14px */
+}
+
+.mini-divider{
+	width: 22px;
+	margin: 0 auto 0.1875em auto; /* 3px*1/16 */
+}
+
 /* Начало блока с классом .three-picture */
 
 /* Начало блока с классом .text-content__i */
-.text-content__i{ /* Большой блок с текстом и картинкой */
-    padding-top: 5em; /* 80px*0.0625em=5em */
-    padding-bottom: 5em; /* 80px*0.0625em=5em */
+  .text-content__i{ /* Большой блок с текстом и картинкой */
+ 
+    width: 480px; /* ??? */ /* Не знаю что делать с блоком */
 }
 
-.picture-content{ /* Картинка с Горой и водой */
-    float: right;
+  .picture-content{ /* Картинка с Горой и водой */
+  
+    width: 66.4583333333%; /* 319px/480px */
+    display: block;
+    float: none;
+    margin: 0 auto;
+    
+}
+
+  .simple-text{
+
+    float: none;
+    width: 80%;
+    margin: 3em auto 0 auto;
 }
 
   .simple-text h3{ /* Заголовок So simple... */
+ 
     font-size: 1.875em; /* 30px/16px */
+    text-align: center;
 }
 
   .simple-text p{ /* Текст My Journey HTML template...*/
-	text-align: center;
+
+    text-align: center;
 	font-size: 0.875em; /* 14px/16px */
 }
 /* Конец блока с классом .text-content__i */
 
 /* Начало блока с классом .button-content__i */
   .button-content__i{
-	padding-top: 5em;
-    padding-bottom: 5em;
+
+    width: 480px; /* ??? */ /* Не знаю что делать с шириной */
 }  
 
   .right-text{ /* Текст My Journey is all...*/
-	font-size: 0.875em; /* 14px/16px*/
+
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.875em; /* 14px/16px*/
+    text-align: center;
+    position: relative;
+    top: 300px;
 }
 
   .right-text h3{ /* Заголовок Right here...*/
+ 
     font-size: 2.1428571429em; /* 30px/14px*/ /* Ранее задал шрифт 14px для блока right-text */
 }
 
   .button-more{ /* Блок с красной кнопкой More information и текстом or get...*/
-	margin-top: 2.5em; /* 40px */
+
+    margin: 0 auto;
+    position: relative;
+    top: 320px;
 }
 
   .button{ /* Красная кнопка More information */
-	width: 179px;
+
+    width: 179px;
 }
 
   .button-picture{ /* Картинка ноги в джинсах и ботинках */
-    float: right;
+
+    width: 319px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    top: -260px;
 }
 /* Конец блока с классом .button-content__i */
 /* Конец блока с классом .content */
