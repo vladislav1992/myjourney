@@ -17,21 +17,24 @@ header{
 	padding-top: 3.125em; /* 50px*1/16 */
 }
 
-header .head-table{
-	margin-left: 10.8333333333%; /* 130px/1200px */
-}
-
-.head-table{
-    width: 78.3333333333%; /* 940px/1200px */
-}
-
 .logo2{
-    width: 341px;
+    margin-left: 10.8333333333%; /* 130px/1200px */ 
+    width: 28.4166666667%; /* 341px/1200px */
 }
 
 .socialmenu-1{
 	display: inline-block;
-	margin-left: 48.8%; /* Подогнал на глаз */
+    margin-left:37.8333333333%; /* 454px/1200px */
+    padding:0;
+}
+
+.socialmenu-1 ul{
+    margin: 0;
+	padding: 0;
+}
+
+.socialmenu-1 li{
+	float: left;
 }
 
 nav ul{
@@ -143,24 +146,55 @@ nav li{
 	margin-bottom: 5em; /* 80px*1/16 */
 }
 
-.tree-columns_table{
-	width: 83%; /* 996px/1200px */
-	margin: 0 auto;
+.three_columns{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 75%; /* 900px/1200px */
+    margin-left:150px;
+    padding: 0;
 }
 
-.three-picture table tr td{
-	font-size: 0.875em; /* 14px/16px */
-	line-height: 1.5;
-	text-align: center;
+.three_columns li{
+    float: left;
 }
 
-.three-picture table tr td h2{
-	text-transform: uppercase;
+.three_columns h2{
+    font-size: 1.125em; /* 18px/16px */
+    text-transform: uppercase;
 }
 
-.three-picture p span{
-	color: #777c7f;
-	line-height: 1.5;
+.three_columns p{
+    font-size: 0.875em; /* 14px/16px */
+    line-height: 1.5;
+    color: #777c7f;
+}
+
+.light{
+    margin-right:58px;
+}
+
+.responsive{
+    margin-right:58px;
+}
+
+.easy{
+    
+}
+
+.lamp{
+    width: 46px;
+    margin-bottom:15px;
+}
+
+.rocket{
+    width: 65px;
+    margin-bottom:15px;
+}
+
+.flag{
+    width: 56px;
+    margin-bottom:15px;
 }
 
 .mini-divider{
@@ -393,6 +427,10 @@ footer{
 }
 
 /* Начало блока <header> */
+  .logo2{
+    width: 71.0416666667%; /* 341px/480px */
+    margin-left: 14.5833333333%; /* 70px/480px */
+}
   .socialmenu-1{ /* Значки социального меню вверху */
 	display: none;
 }
@@ -423,21 +461,26 @@ footer{
     width: 100%; /* 480px/480px */
 }
 
-  .tree-columns_table{ /* Сама таблица с лампочкой, рокетой и флагом*/
-	width: 83%; /* 996px/1200px */
+  .three_columns{
+    width: 100%;
 }
 
-  .three-picture table tr td{ /* Текст Clean & Beautiful ... */
-    font-size: 0.875em; /* 14px/16px */
+.light{
+    display:block;
+    padding:0;
+    margin-top:80px;
 }
 
-  .three-picture table tr td h2{ /* Заголовки Light and fast */
-    font-size: 1.2857142857em; /* 18px/14px */
+.responsive{
+    margin-top:80px;
 }
 
-.mini-divider{
-	width: 22px;
-	margin: 0 auto 0.1875em auto; /* 3px*1/16 */
+.easy{
+    margin-top:80px;
+}
+
+.lamp{
+    width: 46px;
 }
 
 /* Начало блока с классом .three-picture */
