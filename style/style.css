@@ -18,6 +18,7 @@ header{
 }
 
 .logo2{
+    display:inline-block;
     margin-left: 10.8333333333%; /* 130px/1200px */ 
     width: 28.4166666667%; /* 341px/1200px */
 }
@@ -155,8 +156,9 @@ nav li{
     padding: 0;
 }
 
-.three_columns li{
+.three-picture li{
     float: left;
+    display: block;
 }
 
 .three_columns h2{
@@ -319,6 +321,10 @@ nav li{
     padding-bottom: 9.375em; /* 150px*1/16 */
 }
 
+.blue_bird{
+    width:3.1666666667%; /* 38px/1200px */
+}
+
 .twitter-content p{
 	margin-top: 2.625em; /* 63px*1/24 */
 	font-size: 1.5em; /* 24px/16px */
@@ -443,7 +449,10 @@ footer{
 
 /* Начало блока с классом .first-picture */
   .first-picture h1{ /* Заголовок Hello! You...*/
-	font-size: 1.625em; /* 26px/16px */
+    display:block;
+    font-size: 1.625em; /* 26px/16px */
+    width:82%;
+    margin:0 auto;
 }
 
   .picture-1{ /* Большая картинка */
@@ -453,6 +462,7 @@ footer{
   .float_divider{
     width: 85.4166666667%; /* 410px/480px */
     display: block; /* Не уверен по поводу значения ??? */
+    margin-top:-1.875em; /* 30*1/16 */
 }
 /* Конец блока с классом .first-picture */
 
@@ -462,24 +472,24 @@ footer{
 }
 
   .three_columns{
-    width: 100%;
+    margin:0 auto;
 }
 
-.light{
-    display:block;
-    padding:0;
-    margin-top:80px;
+  .light{
+    display: block;
+    padding: 0;
+    margin-top: 5em; /* 80px*1/16 */
 }
 
-.responsive{
-    margin-top:80px;
+  .responsive{
+    margin-top: 5em; /* 80px*1/16 */
 }
 
-.easy{
-    margin-top:80px;
+  .easy{
+    margin-top: 5em; /* 80px*1/16 */
 }
 
-.lamp{
+  .lamp{
     width: 46px;
 }
 
@@ -487,12 +497,10 @@ footer{
 
 /* Начало блока с классом .text-content__i */
   .text-content__i{ /* Большой блок с текстом и картинкой */
- 
-    width: 480px; /* ??? */ /* Не знаю что делать с блоком */
+    width: 100%; /* ??? */ /* Не знаю что делать с блоком */
 }
 
   .picture-content{ /* Картинка с Горой и водой */
-  
     width: 66.4583333333%; /* 319px/480px */
     display: block;
     float: none;
@@ -501,20 +509,17 @@ footer{
 }
 
   .simple-text{
-
     float: none;
     width: 80%;
     margin: 3em auto 0 auto;
 }
 
   .simple-text h3{ /* Заголовок So simple... */
- 
     font-size: 1.875em; /* 30px/16px */
     text-align: center;
 }
 
   .simple-text p{ /* Текст My Journey HTML template...*/
-
     text-align: center;
 	font-size: 0.875em; /* 14px/16px */
 }
@@ -522,12 +527,10 @@ footer{
 
 /* Начало блока с классом .button-content__i */
   .button-content__i{
-
-    width: 480px; /* ??? */ /* Не знаю что делать с шириной */
+    width: 100%; /* ??? */ /* Не знаю что делать с шириной */
 }  
 
   .right-text{ /* Текст My Journey is all...*/
-
     width: 80%;
     margin: 0 auto;
     font-size: 0.875em; /* 14px/16px*/
@@ -537,24 +540,20 @@ footer{
 }
 
   .right-text h3{ /* Заголовок Right here...*/
- 
     font-size: 2.1428571429em; /* 30px/14px*/ /* Ранее задал шрифт 14px для блока right-text */
 }
 
   .button-more{ /* Блок с красной кнопкой More information и текстом or get...*/
-
     margin: 0 auto;
     position: relative;
     top: 320px;
 }
 
   .button{ /* Красная кнопка More information */
-
     width: 179px;
 }
 
   .button-picture{ /* Картинка ноги в джинсах и ботинках */
-
     width: 319px;
     display: block;
     margin: 0 auto;
@@ -569,6 +568,10 @@ footer{
   .twitter-content{ /* Блок с синей птицей twitter */
     padding-top: 5em;
     padding-bottom: 5em;
+}
+
+.blue_bird{
+    width:7.9166666667%; /* 38px/480px */
 }
 
   .twitter-content p{ /* Текст First of many freebies from...*/
